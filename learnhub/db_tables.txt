@@ -1,0 +1,62 @@
+[
+  {
+    "tablename": "test_table"
+  },
+  {
+    "tablename": "users"
+  },
+  {
+    "tablename": "profiles"
+  },
+  {
+    "tablename": "verification_tokens"
+  },
+  {
+    "tablename": "accounts"
+  },
+  {
+    "tablename": "sessions"
+  },
+  {
+    "tablename": "categories"
+  },
+  {
+    "tablename": "courses"
+  },
+  {
+    "tablename": "lectures"
+  },
+  {
+    "tablename": "progress"
+  },
+  {
+    "tablename": "reviews"
+  },
+  {
+    "tablename": "cart_items"
+  },
+  {
+    "tablename": "wishlists"
+  },
+  {
+    "tablename": "orders"
+  },
+  {
+    "tablename": "enrollments"
+  },
+  {
+    "tablename": "notifications"
+  },
+  {
+    "tablename": "recently_viewed"
+  },
+  {
+    "tablename": "sections"
+  },
+  {
+    "tablename": "purchases"
+  },
+  {
+    "tablename": "certificates"
+  }
+]

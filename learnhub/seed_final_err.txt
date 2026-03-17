@@ -1,0 +1,81 @@
+Failed Sigma Web Development Course: 
+Invalid `prisma.course.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-final.js:59:27
+
+  56    continue
+  57 }
+  58 try {
+→ 59   await prisma.course.upsert(
+The column `level` does not exist in the current database.
+Failed Sigma Web Development Course 2.0: 
+Invalid `prisma.course.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-final.js:59:27
+
+  56    continue
+  57 }
+  58 try {
+→ 59   await prisma.course.upsert(
+The column `level` does not exist in the current database.
+Failed DSA Supreme Batch: 
+Invalid `prisma.course.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-final.js:59:27
+
+  56    continue
+  57 }
+  58 try {
+→ 59   await prisma.course.upsert(
+The column `level` does not exist in the current database.
+Failed Complete Git & GitHub Course: 
+Invalid `prisma.course.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-final.js:59:27
+
+  56    continue
+  57 }
+  58 try {
+→ 59   await prisma.course.upsert(
+The column `level` does not exist in the current database.
+Failed Complete React JS Course: 
+Invalid `prisma.course.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-final.js:59:27
+
+  56    continue
+  57 }
+  58 try {
+→ 59   await prisma.course.upsert(
+The column `level` does not exist in the current database.
+Failed A-Z DSA Course: 
+Invalid `prisma.course.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-final.js:59:27
+
+  56    continue
+  57 }
+  58 try {
+→ 59   await prisma.course.upsert(
+The column `level` does not exist in the current database.
+Failed Full Stack MERN & Next.js: 
+Invalid `prisma.course.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-final.js:59:27
+
+  56    continue
+  57 }
+  58 try {
+→ 59   await prisma.course.upsert(
+The column `level` does not exist in the current database.
+Failed Complete Next.js 14 Course: 
+Invalid `prisma.course.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-final.js:59:27
+
+  56    continue
+  57 }
+  58 try {
+→ 59   await prisma.course.upsert(
+The column `level` does not exist in the current database.
+Failed DBMS Complete Playlist: 
+Invalid `prisma.course.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-final.js:59:27
+
+  56    continue
+  57 }
+  58 try {
+→ 59   await prisma.course.upsert(
+The column `level` does not exist in the current database.

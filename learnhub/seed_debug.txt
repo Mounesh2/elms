@@ -1,0 +1,1498 @@
+Error processing Apna College:
+{
+  "name": "PrismaClientUnknownRequestError",
+  "clientVersion": "5.13.0"
+}
+Error processing Apna College:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:65:38
+
+  62 
+  63 try {
+  64   // Create User / Instructor
+→ 65   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42704", message: "type \"public.Role\" does not exist", severity: "ERROR", detail: None, column: None, hint: None }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:65:38
+
+  62 
+  63 try {
+  64   // Create User / Instructor
+→ 65   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42704", message: "type \"public.Role\" does not exist", severity: "ERROR", detail: None, column: None, hint: None }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:65:20)
+Error processing Apna College:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing CodeWithHarry:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing CodeHelp - by Babbar:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing Kunal Kushwaha:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing Thapa Technical:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing Striver (take U forward):
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing Harkirat Singh:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing Piyush Garg:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing Knowledge Gate:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing Apna College:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing CodeWithHarry:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing CodeHelp - by Babbar:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing Kunal Kushwaha:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing Thapa Technical:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing Striver (take U forward):
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing Harkirat Singh:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing Piyush Garg:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing Knowledge Gate:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing Apna College:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing CodeWithHarry:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing CodeHelp - by Babbar:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing Kunal Kushwaha:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing Thapa Technical:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing Striver (take U forward):
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing Harkirat Singh:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing Piyush Garg:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing Knowledge Gate:
+ERROR: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+STACK: PrismaClientUnknownRequestError: 
+Invalid `prisma.user.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:38
+
+  204 
+  205 try {
+  206   // Create User / Instructor
+→ 207   const user = await prisma.user.upsert(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(PostgresError { code: "42804", message: "column \"role\" is of type role but expression is of type \"Role\"", severity: "ERROR", detail: None, column: None, hint: Some("You will need to rewrite or cast the expression.") }), transient: false })
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:7044)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:207:20)
+Error processing Apna College:
+ERROR: 
+Invalid `prisma.profile.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:44
+
+  222 console.log(`  User upserted: ${user.id}`)
+  223 
+  224 // Create Profile
+→ 225 const profile = await prisma.profile.upsert({
+        where: {
+          id: "cmmrf4g6i0000xgrmth1b13sn"
+        },
+        update: {
+          headline: "Alpha Plus Full Stack & DSA Instructor",
+          bio: "Shradha Khapra and Aman Dhattarwal team delivering best tech education."
+        },
+        create: {
+          id: "cmmrf4g6i0000xgrmth1b13sn",
+          email: "shradha@apnacollege.com",
+          fullName: "Apna College",
+          headline: "Alpha Plus Full Stack & DSA Instructor",
+          bio: "Shradha Khapra and Aman Dhattarwal team delivering best tech education.",
+          role: "instructor",
+          ~~~~
+          isInstructor: true,
+      ?   username?: String | Null,
+      ?   avatarUrl?: String | Null,
+      ?   websiteUrl?: String | Null,
+      ?   twitterUrl?: String | Null,
+      ?   linkedinUrl?: String | Null,
+      ?   totalCoursesEnrolled?: Int,
+      ?   totalCoursesCreated?: Int,
+      ?   stripeConnectId?: String | Null,
+      ?   payoutEnabled?: Boolean,
+      ?   createdAt?: DateTime,
+      ?   updatedAt?: DateTime
+        }
+      })
+
+Unknown argument `role`. Available options are marked with ?.
+STACK: PrismaClientValidationError: 
+Invalid `prisma.profile.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:44
+
+  222 console.log(`  User upserted: ${user.id}`)
+  223 
+  224 // Create Profile
+→ 225 const profile = await prisma.profile.upsert({
+        where: {
+          id: "cmmrf4g6i0000xgrmth1b13sn"
+        },
+        update: {
+          headline: "Alpha Plus Full Stack & DSA Instructor",
+          bio: "Shradha Khapra and Aman Dhattarwal team delivering best tech education."
+        },
+        create: {
+          id: "cmmrf4g6i0000xgrmth1b13sn",
+          email: "shradha@apnacollege.com",
+          fullName: "Apna College",
+          headline: "Alpha Plus Full Stack & DSA Instructor",
+          bio: "Shradha Khapra and Aman Dhattarwal team delivering best tech education.",
+          role: "instructor",
+          ~~~~
+          isInstructor: true,
+      ?   username?: String | Null,
+      ?   avatarUrl?: String | Null,
+      ?   websiteUrl?: String | Null,
+      ?   twitterUrl?: String | Null,
+      ?   linkedinUrl?: String | Null,
+      ?   totalCoursesEnrolled?: Int,
+      ?   totalCoursesCreated?: Int,
+      ?   stripeConnectId?: String | Null,
+      ?   payoutEnabled?: Boolean,
+      ?   createdAt?: DateTime,
+      ?   updatedAt?: DateTime
+        }
+      })
+
+Unknown argument `role`. Available options are marked with ?.
+    at Tn (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6510)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:23)
+Error processing CodeWithHarry:
+ERROR: 
+Invalid `prisma.profile.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:44
+
+  222 console.log(`  User upserted: ${user.id}`)
+  223 
+  224 // Create Profile
+→ 225 const profile = await prisma.profile.upsert({
+        where: {
+          id: "cwh-user-id-0001"
+        },
+        update: {
+          headline: "The Most Loved Coding Instructor in India",
+          bio: "Haris Khan (Harry) translates complex tech into simple Hindi."
+        },
+        create: {
+          id: "cwh-user-id-0001",
+          email: "harry@codewithharry.com",
+          fullName: "CodeWithHarry",
+          headline: "The Most Loved Coding Instructor in India",
+          bio: "Haris Khan (Harry) translates complex tech into simple Hindi.",
+          role: "instructor",
+          ~~~~
+          isInstructor: true,
+      ?   username?: String | Null,
+      ?   avatarUrl?: String | Null,
+      ?   websiteUrl?: String | Null,
+      ?   twitterUrl?: String | Null,
+      ?   linkedinUrl?: String | Null,
+      ?   totalCoursesEnrolled?: Int,
+      ?   totalCoursesCreated?: Int,
+      ?   stripeConnectId?: String | Null,
+      ?   payoutEnabled?: Boolean,
+      ?   createdAt?: DateTime,
+      ?   updatedAt?: DateTime
+        }
+      })
+
+Unknown argument `role`. Available options are marked with ?.
+STACK: PrismaClientValidationError: 
+Invalid `prisma.profile.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:44
+
+  222 console.log(`  User upserted: ${user.id}`)
+  223 
+  224 // Create Profile
+→ 225 const profile = await prisma.profile.upsert({
+        where: {
+          id: "cwh-user-id-0001"
+        },
+        update: {
+          headline: "The Most Loved Coding Instructor in India",
+          bio: "Haris Khan (Harry) translates complex tech into simple Hindi."
+        },
+        create: {
+          id: "cwh-user-id-0001",
+          email: "harry@codewithharry.com",
+          fullName: "CodeWithHarry",
+          headline: "The Most Loved Coding Instructor in India",
+          bio: "Haris Khan (Harry) translates complex tech into simple Hindi.",
+          role: "instructor",
+          ~~~~
+          isInstructor: true,
+      ?   username?: String | Null,
+      ?   avatarUrl?: String | Null,
+      ?   websiteUrl?: String | Null,
+      ?   twitterUrl?: String | Null,
+      ?   linkedinUrl?: String | Null,
+      ?   totalCoursesEnrolled?: Int,
+      ?   totalCoursesCreated?: Int,
+      ?   stripeConnectId?: String | Null,
+      ?   payoutEnabled?: Boolean,
+      ?   createdAt?: DateTime,
+      ?   updatedAt?: DateTime
+        }
+      })
+
+Unknown argument `role`. Available options are marked with ?.
+    at Tn (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6510)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:23)
+Error processing CodeHelp - by Babbar:
+ERROR: 
+Invalid `prisma.profile.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:44
+
+  222 console.log(`  User upserted: ${user.id}`)
+  223 
+  224 // Create Profile
+→ 225 const profile = await prisma.profile.upsert({
+        where: {
+          id: "cmmrf4glt0002xgrmhv88aytq"
+        },
+        update: {
+          headline: "Ex-Amazon, Ex-Microsoft Engineer",
+          bio: "Love Babbar is famous for his DSA content and Supreme batches."
+        },
+        create: {
+          id: "cmmrf4glt0002xgrmhv88aytq",
+          email: "babbar@codehelp.in",
+          fullName: "CodeHelp - by Babbar",
+          headline: "Ex-Amazon, Ex-Microsoft Engineer",
+          bio: "Love Babbar is famous for his DSA content and Supreme batches.",
+          role: "instructor",
+          ~~~~
+          isInstructor: true,
+      ?   username?: String | Null,
+      ?   avatarUrl?: String | Null,
+      ?   websiteUrl?: String | Null,
+      ?   twitterUrl?: String | Null,
+      ?   linkedinUrl?: String | Null,
+      ?   totalCoursesEnrolled?: Int,
+      ?   totalCoursesCreated?: Int,
+      ?   stripeConnectId?: String | Null,
+      ?   payoutEnabled?: Boolean,
+      ?   createdAt?: DateTime,
+      ?   updatedAt?: DateTime
+        }
+      })
+
+Unknown argument `role`. Available options are marked with ?.
+STACK: PrismaClientValidationError: 
+Invalid `prisma.profile.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:44
+
+  222 console.log(`  User upserted: ${user.id}`)
+  223 
+  224 // Create Profile
+→ 225 const profile = await prisma.profile.upsert({
+        where: {
+          id: "cmmrf4glt0002xgrmhv88aytq"
+        },
+        update: {
+          headline: "Ex-Amazon, Ex-Microsoft Engineer",
+          bio: "Love Babbar is famous for his DSA content and Supreme batches."
+        },
+        create: {
+          id: "cmmrf4glt0002xgrmhv88aytq",
+          email: "babbar@codehelp.in",
+          fullName: "CodeHelp - by Babbar",
+          headline: "Ex-Amazon, Ex-Microsoft Engineer",
+          bio: "Love Babbar is famous for his DSA content and Supreme batches.",
+          role: "instructor",
+          ~~~~
+          isInstructor: true,
+      ?   username?: String | Null,
+      ?   avatarUrl?: String | Null,
+      ?   websiteUrl?: String | Null,
+      ?   twitterUrl?: String | Null,
+      ?   linkedinUrl?: String | Null,
+      ?   totalCoursesEnrolled?: Int,
+      ?   totalCoursesCreated?: Int,
+      ?   stripeConnectId?: String | Null,
+      ?   payoutEnabled?: Boolean,
+      ?   createdAt?: DateTime,
+      ?   updatedAt?: DateTime
+        }
+      })
+
+Unknown argument `role`. Available options are marked with ?.
+    at Tn (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6510)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:23)
+Error processing Kunal Kushwaha:
+ERROR: 
+Invalid `prisma.profile.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:44
+
+  222 console.log(`  User upserted: ${user.id}`)
+  223 
+  224 // Create Profile
+→ 225 const profile = await prisma.profile.upsert({
+        where: {
+          id: "cmmrf4gua0003xgrmse0kkios"
+        },
+        update: {
+          headline: "Founder Community Classroom",
+          bio: "Famous for free high-quality education and Git/GitHub tutorials."
+        },
+        create: {
+          id: "cmmrf4gua0003xgrmse0kkios",
+          email: "kunal@communityclassroom.org",
+          fullName: "Kunal Kushwaha",
+          headline: "Founder Community Classroom",
+          bio: "Famous for free high-quality education and Git/GitHub tutorials.",
+          role: "instructor",
+          ~~~~
+          isInstructor: true,
+      ?   username?: String | Null,
+      ?   avatarUrl?: String | Null,
+      ?   websiteUrl?: String | Null,
+      ?   twitterUrl?: String | Null,
+      ?   linkedinUrl?: String | Null,
+      ?   totalCoursesEnrolled?: Int,
+      ?   totalCoursesCreated?: Int,
+      ?   stripeConnectId?: String | Null,
+      ?   payoutEnabled?: Boolean,
+      ?   createdAt?: DateTime,
+      ?   updatedAt?: DateTime
+        }
+      })
+
+Unknown argument `role`. Available options are marked with ?.
+STACK: PrismaClientValidationError: 
+Invalid `prisma.profile.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:44
+
+  222 console.log(`  User upserted: ${user.id}`)
+  223 
+  224 // Create Profile
+→ 225 const profile = await prisma.profile.upsert({
+        where: {
+          id: "cmmrf4gua0003xgrmse0kkios"
+        },
+        update: {
+          headline: "Founder Community Classroom",
+          bio: "Famous for free high-quality education and Git/GitHub tutorials."
+        },
+        create: {
+          id: "cmmrf4gua0003xgrmse0kkios",
+          email: "kunal@communityclassroom.org",
+          fullName: "Kunal Kushwaha",
+          headline: "Founder Community Classroom",
+          bio: "Famous for free high-quality education and Git/GitHub tutorials.",
+          role: "instructor",
+          ~~~~
+          isInstructor: true,
+      ?   username?: String | Null,
+      ?   avatarUrl?: String | Null,
+      ?   websiteUrl?: String | Null,
+      ?   twitterUrl?: String | Null,
+      ?   linkedinUrl?: String | Null,
+      ?   totalCoursesEnrolled?: Int,
+      ?   totalCoursesCreated?: Int,
+      ?   stripeConnectId?: String | Null,
+      ?   payoutEnabled?: Boolean,
+      ?   createdAt?: DateTime,
+      ?   updatedAt?: DateTime
+        }
+      })
+
+Unknown argument `role`. Available options are marked with ?.
+    at Tn (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6510)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:23)
+Error processing Thapa Technical:
+ERROR: 
+Invalid `prisma.profile.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:44
+
+  222 console.log(`  User upserted: ${user.id}`)
+  223 
+  224 // Create Profile
+→ 225 const profile = await prisma.profile.upsert({
+        where: {
+          id: "cmmrf4h1b0004xgrmkmkzbjmg"
+        },
+        update: {
+          headline: "Simplified Web Development in Hindi",
+          bio: "Expert in React, Node, and modern web technologies."
+        },
+        create: {
+          id: "cmmrf4h1b0004xgrmkmkzbjmg",
+          email: "thapa@thapatechnical.com",
+          fullName: "Thapa Technical",
+          headline: "Simplified Web Development in Hindi",
+          bio: "Expert in React, Node, and modern web technologies.",
+          role: "instructor",
+          ~~~~
+          isInstructor: true,
+      ?   username?: String | Null,
+      ?   avatarUrl?: String | Null,
+      ?   websiteUrl?: String | Null,
+      ?   twitterUrl?: String | Null,
+      ?   linkedinUrl?: String | Null,
+      ?   totalCoursesEnrolled?: Int,
+      ?   totalCoursesCreated?: Int,
+      ?   stripeConnectId?: String | Null,
+      ?   payoutEnabled?: Boolean,
+      ?   createdAt?: DateTime,
+      ?   updatedAt?: DateTime
+        }
+      })
+
+Unknown argument `role`. Available options are marked with ?.
+STACK: PrismaClientValidationError: 
+Invalid `prisma.profile.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:44
+
+  222 console.log(`  User upserted: ${user.id}`)
+  223 
+  224 // Create Profile
+→ 225 const profile = await prisma.profile.upsert({
+        where: {
+          id: "cmmrf4h1b0004xgrmkmkzbjmg"
+        },
+        update: {
+          headline: "Simplified Web Development in Hindi",
+          bio: "Expert in React, Node, and modern web technologies."
+        },
+        create: {
+          id: "cmmrf4h1b0004xgrmkmkzbjmg",
+          email: "thapa@thapatechnical.com",
+          fullName: "Thapa Technical",
+          headline: "Simplified Web Development in Hindi",
+          bio: "Expert in React, Node, and modern web technologies.",
+          role: "instructor",
+          ~~~~
+          isInstructor: true,
+      ?   username?: String | Null,
+      ?   avatarUrl?: String | Null,
+      ?   websiteUrl?: String | Null,
+      ?   twitterUrl?: String | Null,
+      ?   linkedinUrl?: String | Null,
+      ?   totalCoursesEnrolled?: Int,
+      ?   totalCoursesCreated?: Int,
+      ?   stripeConnectId?: String | Null,
+      ?   payoutEnabled?: Boolean,
+      ?   createdAt?: DateTime,
+      ?   updatedAt?: DateTime
+        }
+      })
+
+Unknown argument `role`. Available options are marked with ?.
+    at Tn (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6510)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:23)
+Error processing Striver (take U forward):
+ERROR: 
+Invalid `prisma.profile.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:44
+
+  222 console.log(`  User upserted: ${user.id}`)
+  223 
+  224 // Create Profile
+→ 225 const profile = await prisma.profile.upsert({
+        where: {
+          id: "cmmrf4h900005xgrmmpam9ewp"
+        },
+        update: {
+          headline: "G-Step @ Google, Ex-Amazon",
+          bio: "Famous for SDE Sheets and DSA Playlists."
+        },
+        create: {
+          id: "cmmrf4h900005xgrmmpam9ewp",
+          email: "striver@takeuforward.com",
+          fullName: "Striver (take U forward)",
+          headline: "G-Step @ Google, Ex-Amazon",
+          bio: "Famous for SDE Sheets and DSA Playlists.",
+          role: "instructor",
+          ~~~~
+          isInstructor: true,
+      ?   username?: String | Null,
+      ?   avatarUrl?: String | Null,
+      ?   websiteUrl?: String | Null,
+      ?   twitterUrl?: String | Null,
+      ?   linkedinUrl?: String | Null,
+      ?   totalCoursesEnrolled?: Int,
+      ?   totalCoursesCreated?: Int,
+      ?   stripeConnectId?: String | Null,
+      ?   payoutEnabled?: Boolean,
+      ?   createdAt?: DateTime,
+      ?   updatedAt?: DateTime
+        }
+      })
+
+Unknown argument `role`. Available options are marked with ?.
+STACK: PrismaClientValidationError: 
+Invalid `prisma.profile.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:44
+
+  222 console.log(`  User upserted: ${user.id}`)
+  223 
+  224 // Create Profile
+→ 225 const profile = await prisma.profile.upsert({
+        where: {
+          id: "cmmrf4h900005xgrmmpam9ewp"
+        },
+        update: {
+          headline: "G-Step @ Google, Ex-Amazon",
+          bio: "Famous for SDE Sheets and DSA Playlists."
+        },
+        create: {
+          id: "cmmrf4h900005xgrmmpam9ewp",
+          email: "striver@takeuforward.com",
+          fullName: "Striver (take U forward)",
+          headline: "G-Step @ Google, Ex-Amazon",
+          bio: "Famous for SDE Sheets and DSA Playlists.",
+          role: "instructor",
+          ~~~~
+          isInstructor: true,
+      ?   username?: String | Null,
+      ?   avatarUrl?: String | Null,
+      ?   websiteUrl?: String | Null,
+      ?   twitterUrl?: String | Null,
+      ?   linkedinUrl?: String | Null,
+      ?   totalCoursesEnrolled?: Int,
+      ?   totalCoursesCreated?: Int,
+      ?   stripeConnectId?: String | Null,
+      ?   payoutEnabled?: Boolean,
+      ?   createdAt?: DateTime,
+      ?   updatedAt?: DateTime
+        }
+      })
+
+Unknown argument `role`. Available options are marked with ?.
+    at Tn (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6510)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:23)
+Error processing Harkirat Singh:
+ERROR: 
+Invalid `prisma.profile.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:44
+
+  222 console.log(`  User upserted: ${user.id}`)
+  223 
+  224 // Create Profile
+→ 225 const profile = await prisma.profile.upsert({
+        where: {
+          id: "cmmrf4hg50006xgrm12e9e4j9"
+        },
+        update: {
+          headline: "Founder 100xDevs, Ex-Remote Engineer",
+          bio: "Teaching deep full-stack and open source."
+        },
+        create: {
+          id: "cmmrf4hg50006xgrm12e9e4j9",
+          email: "harkirat@100xdevs.com",
+          fullName: "Harkirat Singh",
+          headline: "Founder 100xDevs, Ex-Remote Engineer",
+          bio: "Teaching deep full-stack and open source.",
+          role: "instructor",
+          ~~~~
+          isInstructor: true,
+      ?   username?: String | Null,
+      ?   avatarUrl?: String | Null,
+      ?   websiteUrl?: String | Null,
+      ?   twitterUrl?: String | Null,
+      ?   linkedinUrl?: String | Null,
+      ?   totalCoursesEnrolled?: Int,
+      ?   totalCoursesCreated?: Int,
+      ?   stripeConnectId?: String | Null,
+      ?   payoutEnabled?: Boolean,
+      ?   createdAt?: DateTime,
+      ?   updatedAt?: DateTime
+        }
+      })
+
+Unknown argument `role`. Available options are marked with ?.
+STACK: PrismaClientValidationError: 
+Invalid `prisma.profile.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:44
+
+  222 console.log(`  User upserted: ${user.id}`)
+  223 
+  224 // Create Profile
+→ 225 const profile = await prisma.profile.upsert({
+        where: {
+          id: "cmmrf4hg50006xgrm12e9e4j9"
+        },
+        update: {
+          headline: "Founder 100xDevs, Ex-Remote Engineer",
+          bio: "Teaching deep full-stack and open source."
+        },
+        create: {
+          id: "cmmrf4hg50006xgrm12e9e4j9",
+          email: "harkirat@100xdevs.com",
+          fullName: "Harkirat Singh",
+          headline: "Founder 100xDevs, Ex-Remote Engineer",
+          bio: "Teaching deep full-stack and open source.",
+          role: "instructor",
+          ~~~~
+          isInstructor: true,
+      ?   username?: String | Null,
+      ?   avatarUrl?: String | Null,
+      ?   websiteUrl?: String | Null,
+      ?   twitterUrl?: String | Null,
+      ?   linkedinUrl?: String | Null,
+      ?   totalCoursesEnrolled?: Int,
+      ?   totalCoursesCreated?: Int,
+      ?   stripeConnectId?: String | Null,
+      ?   payoutEnabled?: Boolean,
+      ?   createdAt?: DateTime,
+      ?   updatedAt?: DateTime
+        }
+      })
+
+Unknown argument `role`. Available options are marked with ?.
+    at Tn (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6510)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:23)
+Error processing Piyush Garg:
+ERROR: 
+Invalid `prisma.profile.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:44
+
+  222 console.log(`  User upserted: ${user.id}`)
+  223 
+  224 // Create Profile
+→ 225 const profile = await prisma.profile.upsert({
+        where: {
+          id: "cmmrf4hn80007xgrmyqvlof89"
+        },
+        update: {
+          headline: "Full Stack & Web Architect",
+          bio: "Teaching modern web stacks and architecture."
+        },
+        create: {
+          id: "cmmrf4hn80007xgrmyqvlof89",
+          email: "piyush@piyushgarg.dev",
+          fullName: "Piyush Garg",
+          headline: "Full Stack & Web Architect",
+          bio: "Teaching modern web stacks and architecture.",
+          role: "instructor",
+          ~~~~
+          isInstructor: true,
+      ?   username?: String | Null,
+      ?   avatarUrl?: String | Null,
+      ?   websiteUrl?: String | Null,
+      ?   twitterUrl?: String | Null,
+      ?   linkedinUrl?: String | Null,
+      ?   totalCoursesEnrolled?: Int,
+      ?   totalCoursesCreated?: Int,
+      ?   stripeConnectId?: String | Null,
+      ?   payoutEnabled?: Boolean,
+      ?   createdAt?: DateTime,
+      ?   updatedAt?: DateTime
+        }
+      })
+
+Unknown argument `role`. Available options are marked with ?.
+STACK: PrismaClientValidationError: 
+Invalid `prisma.profile.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:44
+
+  222 console.log(`  User upserted: ${user.id}`)
+  223 
+  224 // Create Profile
+→ 225 const profile = await prisma.profile.upsert({
+        where: {
+          id: "cmmrf4hn80007xgrmyqvlof89"
+        },
+        update: {
+          headline: "Full Stack & Web Architect",
+          bio: "Teaching modern web stacks and architecture."
+        },
+        create: {
+          id: "cmmrf4hn80007xgrmyqvlof89",
+          email: "piyush@piyushgarg.dev",
+          fullName: "Piyush Garg",
+          headline: "Full Stack & Web Architect",
+          bio: "Teaching modern web stacks and architecture.",
+          role: "instructor",
+          ~~~~
+          isInstructor: true,
+      ?   username?: String | Null,
+      ?   avatarUrl?: String | Null,
+      ?   websiteUrl?: String | Null,
+      ?   twitterUrl?: String | Null,
+      ?   linkedinUrl?: String | Null,
+      ?   totalCoursesEnrolled?: Int,
+      ?   totalCoursesCreated?: Int,
+      ?   stripeConnectId?: String | Null,
+      ?   payoutEnabled?: Boolean,
+      ?   createdAt?: DateTime,
+      ?   updatedAt?: DateTime
+        }
+      })
+
+Unknown argument `role`. Available options are marked with ?.
+    at Tn (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6510)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:23)
+Error processing Knowledge Gate:
+ERROR: 
+Invalid `prisma.profile.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:44
+
+  222 console.log(`  User upserted: ${user.id}`)
+  223 
+  224 // Create Profile
+→ 225 const profile = await prisma.profile.upsert({
+        where: {
+          id: "cmmrf4hue0008xgrm882rdwa4"
+        },
+        update: {
+          headline: "CS Education Specialist",
+          bio: "Sanchit Jain simplifies CS subjects for competitive exams."
+        },
+        create: {
+          id: "cmmrf4hue0008xgrm882rdwa4",
+          email: "sanchit@knowledgegate.in",
+          fullName: "Knowledge Gate",
+          headline: "CS Education Specialist",
+          bio: "Sanchit Jain simplifies CS subjects for competitive exams.",
+          role: "instructor",
+          ~~~~
+          isInstructor: true,
+      ?   username?: String | Null,
+      ?   avatarUrl?: String | Null,
+      ?   websiteUrl?: String | Null,
+      ?   twitterUrl?: String | Null,
+      ?   linkedinUrl?: String | Null,
+      ?   totalCoursesEnrolled?: Int,
+      ?   totalCoursesCreated?: Int,
+      ?   stripeConnectId?: String | Null,
+      ?   payoutEnabled?: Boolean,
+      ?   createdAt?: DateTime,
+      ?   updatedAt?: DateTime
+        }
+      })
+
+Unknown argument `role`. Available options are marked with ?.
+STACK: PrismaClientValidationError: 
+Invalid `prisma.profile.upsert()` invocation in
+C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:44
+
+  222 console.log(`  User upserted: ${user.id}`)
+  223 
+  224 // Create Profile
+→ 225 const profile = await prisma.profile.upsert({
+        where: {
+          id: "cmmrf4hue0008xgrm882rdwa4"
+        },
+        update: {
+          headline: "CS Education Specialist",
+          bio: "Sanchit Jain simplifies CS subjects for competitive exams."
+        },
+        create: {
+          id: "cmmrf4hue0008xgrm882rdwa4",
+          email: "sanchit@knowledgegate.in",
+          fullName: "Knowledge Gate",
+          headline: "CS Education Specialist",
+          bio: "Sanchit Jain simplifies CS subjects for competitive exams.",
+          role: "instructor",
+          ~~~~
+          isInstructor: true,
+      ?   username?: String | Null,
+      ?   avatarUrl?: String | Null,
+      ?   websiteUrl?: String | Null,
+      ?   twitterUrl?: String | Null,
+      ?   linkedinUrl?: String | Null,
+      ?   totalCoursesEnrolled?: Int,
+      ?   totalCoursesCreated?: Int,
+      ?   stripeConnectId?: String | Null,
+      ?   payoutEnabled?: Boolean,
+      ?   createdAt?: DateTime,
+      ?   updatedAt?: DateTime
+        }
+      })
+
+Unknown argument `role`. Available options are marked with ?.
+    at Tn (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:115:6855)
+    at In.handleRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6510)
+    at In.handleAndLogRequestError (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:6188)
+    at In.request (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:122:5896)
+    at async l (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\node_modules\@prisma\client\runtime\library.js:127:11167)
+    at async main (C:\Users\moune\Desktop\Kodnest\ELMS\learnhub\lib\seed-youtube.js:225:23)
