@@ -12,6 +12,13 @@ export const metadata: Metadata = {
   description: 'Discover thousands of expert-led courses. Learn web development, data science, design, business and more. Start learning today.',
 }
 
+import dynamic from 'next/dynamic'
+
+const ChatbotWidget = dynamic(
+  () => import('@/components/chatbot/ChatbotWidget'),
+  { ssr: false }
+)
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
@@ -19,6 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <AuthProvider>
           <CartProvider>
             {children}
+            <ChatbotWidget />
             <Toaster position="top-right" />
           </CartProvider>
         </AuthProvider>
