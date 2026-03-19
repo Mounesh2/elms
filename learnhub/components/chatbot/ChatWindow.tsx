@@ -121,7 +121,7 @@ const ChatWindow: React.FC<ChatWindowProps> = ({ onClose, onMinimize }) => {
       if (!reader) throw new Error('No reader found');
 
       const decoder = new TextEncoder();
-      let assistantMsg: Message = { id: uuidv4(), role: 'assistant', content: '' };
+      const assistantMsg: Message = { id: uuidv4(), role: 'assistant', content: '' };
       setMessages(prev => [...prev, assistantMsg]);
 
       while (true) {
@@ -215,7 +215,7 @@ const ChatWindow: React.FC<ChatWindowProps> = ({ onClose, onMinimize }) => {
               <div className="flex flex-col items-center justify-center h-full text-center p-6 space-y-2 opacity-60">
                 <Bot size={48} className="text-purple-600 mb-2" />
                 <p className="text-sm font-semibold text-gray-800">Hi {session?.user?.name || 'there'}!</p>
-                <p className="text-xs text-gray-500">I'm your LearnHub assistant. Ask me anything about your courses or hit "Quiz me" to test your knowledge.</p>
+                <p className="text-xs text-gray-500">I&apos;m your LearnHub assistant. Ask me anything about your courses or hit &quot;Quiz me&quot; to test your knowledge.</p>
               </div>
             )}
             {messages.map((msg) => (

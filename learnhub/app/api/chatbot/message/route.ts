@@ -47,7 +47,7 @@ export async function POST(request: Request) {
   const { message, sessionId, courseId, lectureId, history } = await request.json();
 
   // 2. Fetch Context if courseId/lectureId provided
-  let chatContext = {
+  const chatContext = {
     studentName: session.user.name || "Student",
     preferredLanguage: "English", // Could fetch from profile if available
   };
