@@ -6,7 +6,7 @@ export const groq = new OpenAI({
   baseURL: 'https://api.groq.com/openai/v1',
 });
 
-const genAI = new GoogleGenerativeAI(process.env.GOOGLE_AI_API_KEY!);
+const genAI = new GoogleGenerativeAI(process.env.GOOGLE_GEMINI_API_KEY!);
 export const gemini = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
 
 export interface ChatContext {
