@@ -6,10 +6,6 @@ import { eq, and, asc } from "drizzle-orm";
 
 export async function GET(request: Request) {
   const session = await auth();
-  if (!session?.user?.id) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
-
   const { searchParams } = new URL(request.url);
   const sessionId = searchParams.get("sessionId");
 
@@ -17,13 +13,15 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: "Session ID required" }, { status: 400 });
   }
 
+  const userId = session?.user?.id || sessionId || 'anonymous';
+
   try {
     const history = await db
       .select()
       .from(chatMessages)
       .where(
         and(
-          eq(chatMessages.userId, session.user.id),
+          eq(chatMessages.userId, userId),
           eq(chatMessages.sessionId, sessionId)
         )
       )
@@ -39,10 +37,6 @@ export async function GET(request: Request) {
 
 export async function DELETE(request: Request) {
   const session = await auth();
-  if (!session?.user?.id) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
-
   const { searchParams } = new URL(request.url);
   const sessionId = searchParams.get("sessionId");
 
@@ -50,12 +44,14 @@ export async function DELETE(request: Request) {
     return NextResponse.json({ error: "Session ID required" }, { status: 400 });
   }
 
+  const userId = session?.user?.id || sessionId || 'anonymous';
+
   try {
     await db
       .delete(chatMessages)
       .where(
         and(
-          eq(chatMessages.userId, session.user.id),
+          eq(chatMessages.userId, userId),
           eq(chatMessages.sessionId, sessionId)
         )
       );

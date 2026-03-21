@@ -60,8 +60,8 @@ const ChatMessage: React.FC<ChatMessageProps> = ({ role, content, timestamp }) =
           <div className={cn(
             "px-4 py-2.5 rounded-2xl text-[13px] leading-relaxed",
             isBot 
-              ? "bg-gray-100 text-gray-800 rounded-tl-sm border border-gray-200 shadow-sm"
-              : "bg-purple-600 text-white rounded-tr-sm shadow-md"
+              ? "bg-white text-gray-800 rounded-2xl rounded-tl-none border border-gray-100 shadow-sm"
+              : "bg-gradient-to-br from-purple-600 to-indigo-700 text-white rounded-2xl rounded-tr-none shadow-lg shadow-purple-500/20"
           )}>
             <div className="prose prose-sm max-w-none prose-p:my-0 prose-pre:bg-[#1E1B4B] prose-pre:text-white prose-code:text-purple-600 prose-code:bg-purple-50 prose-code:px-1 prose-code:rounded">
               <ReactMarkdown 

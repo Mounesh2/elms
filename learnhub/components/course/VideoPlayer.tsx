@@ -61,17 +61,27 @@ export const VideoPlayer = ({
     <div className="relative group bg-black rounded-sm overflow-hidden aspect-video shadow-2xl">
       {hasWindow && (
         <ReactPlayer
-          {...({ src: url } as any)}
-          width="100%"
-          height="100%"
-          playing={isPlaying || !!thumbnailUrl}
-          light={thumbnailUrl || false}
-          onTimeUpdate={handleTimeUpdate}
-          onDurationChange={(e: React.SyntheticEvent<HTMLVideoElement>) => setDuration(e.currentTarget.duration)}
-          controls={true}
-          onPlay={() => setIsPlaying(true)}
-          onPause={() => setIsPlaying(false)}
-          onClickPreview={() => setIsPlaying(true)}
+          {...({
+            url: url,
+            width: "100%",
+            height: "100%",
+            playing: isPlaying,
+            light: thumbnailUrl || false,
+            onProgress: (state: { played: number; playedSeconds: number }) => {
+              const progress = state.played * 100
+              setPlayed(progress)
+              onProgress?.(state.playedSeconds)
+              
+              if (progress >= 95) {
+                onComplete?.()
+              }
+            },
+            onDuration: (d: number) => setDuration(d),
+            controls: true,
+            onPlay: () => setIsPlaying(true),
+            onPause: () => setIsPlaying(false),
+            onClickPreview: () => setIsPlaying(true)
+          } as any)}
         />
       )}
       

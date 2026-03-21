@@ -10,11 +10,10 @@ export const runtime = "edge";
 
 export async function POST(request: Request) {
   const session = await auth();
-  if (!session?.user?.id) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
-
-  const userId = session.user.id;
+  const { message, sessionId, courseId, lectureId, history } = await request.json();
+  
+  // Allow anonymous chat using sessionId if no user is logged in
+  const userId = session?.user?.id || sessionId || 'anonymous';
   const today = new Date().toISOString().split("T")[0];
 
   // 1. Check Rate Limit (20 per day)
@@ -44,12 +43,10 @@ export async function POST(request: Request) {
     // Continue anyway if rate limit check fails to avoid blocking user
   }
 
-  const { message, sessionId, courseId, lectureId, history } = await request.json();
-
   // 2. Fetch Context if courseId/lectureId provided
   const chatContext = {
-    studentName: session.user.name || "Student",
-    preferredLanguage: "English", // Could fetch from profile if available
+    studentName: session?.user?.name || "Guest",
+    preferredLanguage: "English",
   };
 
   if (courseId) {

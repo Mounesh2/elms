@@ -23,9 +23,10 @@ const ChatbotWidget = () => {
     return () => clearTimeout(timer);
   }, []);
 
-  if (status === 'unauthenticated' || !session) {
-    return null; // Don't show for logged out users or show a "Login" message if desired
-  }
+  // Removed restriction: show for everyone!
+  // if (status === 'unauthenticated' || !session) {
+  //   return null; 
+  // }
 
   const toggleChat = () => {
     setIsOpen(!isOpen);

@@ -21,8 +21,8 @@ interface ChatWindowProps {
   onMinimize: () => void;
 }
 
-const DEFAULT_CHIPS = ['Quiz me', 'Explain this', 'Give example', 'Summarize', 'Translate'];
-const CONTEXT_CHIPS = ['What did I just learn?', 'Next topic?', 'Related courses'];
+const DEFAULT_CHIPS = ['🚀 Quiz me on this', '📝 Explain simply', '💡 Give examples', '🔍 Summarize key points', '🌐 Translate to...'];
+const CONTEXT_CHIPS = ['📚 What am I learning?', '⏭️ What is next?', '🔗 Related courses'];
 
 const ChatWindow: React.FC<ChatWindowProps> = ({ onClose, onMinimize }) => {
   const pathname = usePathname();
@@ -151,7 +151,7 @@ const ChatWindow: React.FC<ChatWindowProps> = ({ onClose, onMinimize }) => {
       }
     } catch (err) {
       console.error('Chat error:', err);
-      setError('Something went wrong. Please try again.');
+      setError('AI is currently taking a short break. Please check your connection or try again in a moment.');
     } finally {
       setIsStreaming(false);
     }
@@ -213,9 +213,14 @@ const ChatWindow: React.FC<ChatWindowProps> = ({ onClose, onMinimize }) => {
           <>
             {messages.length === 0 && (
               <div className="flex flex-col items-center justify-center h-full text-center p-6 space-y-2 opacity-60">
-                <Bot size={48} className="text-purple-600 mb-2" />
-                <p className="text-sm font-semibold text-gray-800">Hi {session?.user?.name || 'there'}!</p>
-                <p className="text-xs text-gray-500">I&apos;m your LearnHub assistant. Ask me anything about your courses or hit &quot;Quiz me&quot; to test your knowledge.</p>
+                <Bot size={48} className="text-purple-600 mb-4 animate-bounce" />
+                <h3 className="text-lg font-bold text-gray-800">Welcome to LearnHub AI!</h3>
+                <p className="text-sm text-gray-500 max-w-[250px]">
+                  I&apos;m your personal study assistant. I can help you understand complex topics, generate practice quizzes, or guide you through your learning journey.
+                </p>
+                <div className="pt-4 text-xs font-semibold text-purple-600 uppercase tracking-widest">
+                  Try asking:
+                </div>
               </div>
             )}
             {messages.map((msg) => (

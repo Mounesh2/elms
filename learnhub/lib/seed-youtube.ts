@@ -1,4 +1,6 @@
 import { PrismaClient } from '@prisma/client'
+import * as dotenv from 'dotenv'
+dotenv.config({ path: '.env' })
 const prisma = new PrismaClient()
 
 async function main() {
@@ -34,7 +36,11 @@ async function main() {
           category: 'web-development',
           thumbnail: 'https://i.ytimg.com/vi/l1EssrLxt7E/maxresdefault.jpg',
           price: 0,
-          level: 'Beginner'
+          level: 'Beginner',
+          lectures: [
+            { title: 'Web Development Introduction', url: 'https://www.youtube.com/watch?v=l1EssrLxt7E' },
+            { title: 'HTML Tutorial', url: 'https://www.youtube.com/watch?v=HcOc7P5BMi4' }
+          ]
         },
         {
           title: 'DSA in Java Course',
@@ -44,7 +50,11 @@ async function main() {
           category: 'development',
           thumbnail: 'https://i.ytimg.com/vi/yRpLlJSxQDg/maxresdefault.jpg',
           price: 0,
-          level: 'Intermediate'
+          level: 'Intermediate',
+          lectures: [
+            { title: 'Java Introduction', url: 'https://www.youtube.com/watch?v=yRpLlJSxQDg' },
+            { title: 'Data Structures Introduction', url: 'https://www.youtube.com/watch?v=Ff6lqon_Pkw' }
+          ]
         }
       ]
     },
@@ -63,7 +73,11 @@ async function main() {
           category: 'web-development',
           thumbnail: 'https://i.ytimg.com/vi/tVzUXW6siu0/maxresdefault.jpg',
           price: 0,
-          level: 'Beginner'
+          level: 'Beginner',
+          lectures: [
+            { title: 'Intro to Sigma Course', url: 'https://www.youtube.com/watch?v=tVzUXW6siu0' },
+            { title: 'Creating First Website', url: 'https://www.youtube.com/watch?v=Edsxf_NBFrw' }
+          ]
         },
         {
           title: 'Python Tutorial for Beginners',
@@ -73,7 +87,32 @@ async function main() {
           category: 'computer-science',
           thumbnail: 'https://i.ytimg.com/vi/7wnove7K-mU/maxresdefault.jpg',
           price: 0,
-          level: 'Beginner'
+          level: 'Beginner',
+          lectures: [
+            { title: 'Python Introduction', url: 'https://www.youtube.com/watch?v=7wnove7K-mU' }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Chai aur Code',
+      email: 'hitesh@hiteshchoudhary.com',
+      headline: 'Hitesh Choudhary - Quality Tech in Hindi',
+      bio: 'Ex-CTO, passionate about teaching web technologies.',
+      avatar: 'https://yt3.googleusercontent.com/ytc/AIdro_nNfV-b7v-Lp-V8W-L_gVl-K-V-L-K-V=s176-c-k-c0x00ffffff-no-rj',
+      courses: [
+        {
+          title: 'JavaScript Series',
+          subtitle: 'JavaScript masterclass in Hindi.',
+          description: 'Complete JavaScript guide from fundamentals to advanced concepts.',
+          slug: 'js-chai-aur-code',
+          category: 'web-development',
+          thumbnail: 'https://i.ytimg.com/vi/r7O-3n_n7eI/maxresdefault.jpg',
+          price: 0,
+          level: 'Intermediate',
+          lectures: [
+            { title: 'JS Part 1', url: 'https://www.youtube.com/watch?v=r7O-3n_n7eI' }
+          ]
         }
       ]
     },
@@ -92,47 +131,12 @@ async function main() {
            category: 'development',
            thumbnail: 'https://i.ytimg.com/vi/WQoB2z67hvY/maxresdefault.jpg',
            price: 0,
-           level: 'Intermediate'
+           level: 'Intermediate',
+           lectures: [
+             { title: 'Intro to DSA', url: 'https://www.youtube.com/watch?v=WQoB2z67hvY' }
+           ]
          }
        ]
-    },
-    {
-      name: 'Kunal Kushwaha',
-      email: 'kunal@communityclassroom.org',
-      headline: 'Founder Community Classroom',
-      bio: 'Famous for free high-quality education and Git/GitHub tutorials.',
-      avatar: 'https://yt3.googleusercontent.com/ytc/AIdro_nNfV-b7v-Lp-V8W-L_gVl-K-V-L-K-V=s176-c-k-c0x00ffffff-no-rj',
-      courses: [
-        {
-          title: 'Complete Git & GitHub Course',
-          subtitle: 'Master version control with Kunal Kushwaha.',
-          description: 'Everything you need to know about Git and GitHub, from basic to advanced.',
-          slug: 'git-github-kunal',
-          category: 'development',
-          thumbnail: 'https://i.ytimg.com/vi/apGV9Kg7ics/maxresdefault.jpg',
-          price: 0,
-          level: 'Beginner'
-        }
-      ]
-    },
-    {
-      name: 'Thapa Technical',
-      email: 'thapa@thapatechnical.com',
-      headline: 'Simplified Web Development in Hindi',
-      bio: 'Expert in React, Node, and modern web technologies.',
-      avatar: 'https://yt3.googleusercontent.com/ytc/AIdro_nNfV-b7v-Lp-V8W-L_gVl-K-V-L-K-V=s176-c-k-c0x00ffffff-no-rj',
-      courses: [
-        {
-          title: 'Complete React JS Course',
-          subtitle: 'Modern React with hooks and state management.',
-          description: 'A comprehensive React course in Hindi, perfect for beginners.',
-          slug: 'react-thapa-technical',
-          category: 'web-development',
-          thumbnail: 'https://i.ytimg.com/vi/tiLWCNFz7zA/maxresdefault.jpg',
-          price: 0,
-          level: 'Beginner'
-        }
-      ]
     },
     {
        name: 'Striver (take U forward)',
@@ -149,9 +153,34 @@ async function main() {
            category: 'development',
            thumbnail: 'https://i.ytimg.com/vi/S77He-Gat-U/maxresdefault.jpg',
            price: 0,
-           level: 'All_Levels'
+           level: 'All_Levels',
+           lectures: [
+             { title: 'A-Z DSA Introduction', url: 'https://www.youtube.com/watch?v=S77He-Gat-U' }
+           ]
          }
        ]
+    },
+    {
+      name: 'Telusko',
+      email: 'navin@telusko.com',
+      headline: 'Navin Reddy - Learn by Doing',
+      bio: 'Simplifying complex computing concepts.',
+      avatar: 'https://yt3.googleusercontent.com/ytc/AIdro_nNfV-b7v-Lp-V8W-L_gVl-K-V-L-K-V=s176-c-k-c0x00ffffff-no-rj',
+      courses: [
+        {
+          title: 'Java for Beginners',
+          subtitle: 'Core Java full tutorial.',
+          description: 'Learn Java from zero to hero with practical examples.',
+          slug: 'java-telusko',
+          category: 'computer-science',
+          thumbnail: 'https://i.ytimg.com/vi/BGTx91t8q50/maxresdefault.jpg',
+          price: 0,
+          level: 'Beginner',
+          lectures: [
+             { title: 'Java Tutorial Introduction', url: 'https://www.youtube.com/watch?v=BGTx91t8q50' }
+          ]
+        }
+      ]
     },
     {
       name: 'Harkirat Singh',
@@ -168,7 +197,208 @@ async function main() {
           category: 'web-development',
           thumbnail: 'https://i.ytimg.com/vi/Vv565Y_0Rto/maxresdefault.jpg',
           price: 0,
-          level: 'Intermediate'
+          level: 'Intermediate',
+          lectures: [
+             { title: 'Full Stack Intro', url: 'https://www.youtube.com/watch?v=Vv565Y_0Rto' }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Jenny\'s Lectures',
+      email: 'jenny@jennyslectures.com',
+      headline: 'Simplified Computer Science Concepts',
+      bio: 'Expert in DSA, Algorithms, and Operating Systems.',
+      avatar: 'https://yt3.googleusercontent.com/ytc/AIdro_nNfV-b7v-Lp-V8W-L_gVl-K-V-L-K-V=s176-c-k-c0x00ffffff-no-rj',
+      courses: [
+        {
+          title: 'Data Structures Full Course',
+          subtitle: 'Master Data Structures with Jenny.',
+          description: 'Detailed explanation of all data structures with examples.',
+          slug: 'dsa-jenny',
+          category: 'computer-science',
+          thumbnail: 'https://i.ytimg.com/vi/2TgvX7isBAs/maxresdefault.jpg',
+          price: 0,
+          level: 'Beginner',
+          lectures: [
+             { title: 'DSA Intro', url: 'https://www.youtube.com/watch?v=2TgvX7isBAs' }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Gate Smashers',
+      email: 'info@gatesmashers.in',
+      headline: 'Best Channel for CS Subjects',
+      bio: 'Varun Singla and the team providing top quality content for GATE and UGC NET.',
+      avatar: 'https://yt3.googleusercontent.com/ytc/AIdro_nNfV-b7v-Lp-V8W-L_gVl-K-V-L-K-V=s176-c-k-c0x00ffffff-no-rj',
+      courses: [
+        {
+          title: 'DBMS Full Course',
+          subtitle: 'Database Management Systems.',
+          description: 'Comprehensive guide to DBMS for university and competitive exams.',
+          slug: 'dbms-gate-smashers',
+          category: 'it-software',
+          thumbnail: 'https://i.ytimg.com/vi/3EJlovevfcA/maxresdefault.jpg',
+          price: 0,
+          level: 'Beginner',
+          lectures: [
+             { title: 'DBMS Introduction', url: 'https://www.youtube.com/watch?v=3EJlovevfcA' }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Knowledge Gate',
+      email: 'sanchit@knowledgegate.in',
+      headline: 'Sanchit Jain - CS Preparation expert',
+      bio: 'Leading instructor for CS engineering subjects.',
+      avatar: 'https://yt3.googleusercontent.com/ytc/AIdro_nNfV-b7v-Lp-V8W-L_gVl-K-V-L-K-V=s176-c-k-c0x00ffffff-no-rj',
+      courses: [
+        {
+          title: 'Theory of Computation',
+          subtitle: 'Automata Theory and TOC.',
+          description: 'Master TOC with easy to understand explanations.',
+          slug: 'toc-sanchit-jain',
+          category: 'computer-science',
+          thumbnail: 'https://i.ytimg.com/vi/58N2N7zJv_I/maxresdefault.jpg',
+          price: 0,
+          level: 'Intermediate',
+          lectures: [
+             { title: 'TOC Intro', url: 'https://www.youtube.com/watch?v=58N2N7zJv_I' }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Thapa Technical',
+      email: 'vinod@thapa.com',
+      headline: 'Simplified Web Development',
+      bio: 'Vinod Thapa provides easy to follow web development tutorials.',
+      avatar: 'https://yt3.googleusercontent.com/ytc/AIdro_nNfV-b7v-Lp-V8W-L_gVl-K-V-L-K-V=s176-c-k-c0x00ffffff-no-rj',
+      courses: [
+        {
+          title: 'React JS Roadmap 2024',
+          subtitle: 'Learn React in Hindi.',
+          description: 'Modern React with hooks and state management.',
+          slug: 'react-thapa',
+          category: 'web-development',
+          thumbnail: 'https://i.ytimg.com/vi/tiLWCNFz7zA/maxresdefault.jpg',
+          price: 0,
+          level: 'Beginner',
+          lectures: [
+             { title: 'React JS Introduction', url: 'https://www.youtube.com/watch?v=tiLWCNFz7zA' }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Anuj Bhaiya',
+      email: 'anuj@anujbhaiya.com',
+      headline: 'Ex-Amazon, Ex-Google SDE',
+      bio: 'Helping students with placement prep and coding.',
+      avatar: 'https://yt3.googleusercontent.com/ytc/AIdro_nNfV-b7v-Lp-V8W-L_gVl-K-V-L-K-V=s176-c-k-c0x00ffffff-no-rj',
+      courses: [
+        {
+          title: 'Java Placement Course',
+          subtitle: 'Master Java for interviews.',
+          description: 'Systematic approach to learning Java and DSA for placements.',
+          slug: 'java-anuj-bhaiya',
+          category: 'development',
+          thumbnail: 'https://i.ytimg.com/vi/n7V8I35nLpg/maxresdefault.jpg',
+          price: 0,
+          level: 'Beginner',
+          lectures: [
+             { title: 'Java Intro by Anuj', url: 'https://www.youtube.com/watch?v=n7V8I35nLpg' }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'Tanay Pratap',
+      email: 'tanay@neog.camp',
+      headline: 'Founder NeoG Camp, Ex-Microsoft',
+      bio: 'Mentoring the next generation of full stack developers.',
+      avatar: 'https://yt3.googleusercontent.com/ytc/AIdro_nNfV-b7v-Lp-V8W-L_gVl-K-V-L-K-V=s176-c-k-c0x00ffffff-no-rj',
+      courses: [
+        {
+          title: 'Level 0 Web Dev',
+          subtitle: 'Start your coding journey.',
+          description: 'Free course to get started with basic web technologies.',
+          slug: 'neog-level0',
+          category: 'web-development',
+          thumbnail: 'https://i.ytimg.com/vi/Ezk2Sbegegg/maxresdefault.jpg',
+          price: 0,
+          level: 'Beginner',
+          lectures: [
+             { title: 'NeoG Level 0 Intro', url: 'https://www.youtube.com/watch?v=Ezk2Sbegegg' }
+          ]
+        }
+      ]
+    },
+    {
+       name: 'Kunal Kushwaha',
+       email: 'kunal@communityclassroom.com',
+       headline: 'Founder Community Classroom',
+       bio: 'Famous for free high-quality quality education around Git and DevOps.',
+       avatar: 'https://yt3.googleusercontent.com/ytc/AIdro_nNfV-b7v-Lp-V8W-L_gVl-K-V-L-K-V=s176-c-k-c0x00ffffff-no-rj',
+       courses: [
+         {
+           title: 'Git & GitHub Tutorial',
+           subtitle: 'Master Version Control.',
+           description: 'Everything you need to know about Git and GitHub.',
+           slug: 'git-kunal',
+           category: 'development',
+           thumbnail: 'https://i.ytimg.com/vi/apGV9Kg7ics/maxresdefault.jpg',
+           price: 0,
+           level: 'Beginner',
+           lectures: [
+             { title: 'Git Tutorial Intro', url: 'https://www.youtube.com/watch?v=apGV9Kg7ics' }
+           ]
+         }
+       ]
+    },
+    {
+      name: 'Coding Wallah',
+      email: 'pw@physicswallah.com',
+      headline: 'Alakh Pandey - Technology for All',
+      bio: 'Revolutionizing technical education in India.',
+      avatar: 'https://yt3.googleusercontent.com/ytc/AIdro_nNfV-b7v-Lp-V8W-L_gVl-K-V-L-K-V=s176-c-k-c0x00ffffff-no-rj',
+      courses: [
+        {
+          title: 'Full Stack Bootcamp',
+          subtitle: 'MERN Stack from basics.',
+          description: 'A project based approach to full stack development.',
+          slug: 'pw-fullstack',
+          category: 'web-development',
+          thumbnail: 'https://i.ytimg.com/vi/61XvkaM1J8E/maxresdefault.jpg',
+          price: 0,
+          level: 'Beginner',
+          lectures: [
+             { title: 'Bootcamp Introduction', url: 'https://www.youtube.com/watch?v=61XvkaM1J8E' }
+          ]
+        }
+      ]
+    },
+    {
+      name: 'MySirG.com',
+      email: 'saurabh@mysirg.com',
+      headline: 'Saurabh Shukla - Mastering C/C++',
+      bio: 'One of India\'s most respected teachers for C and C++.',
+      avatar: 'https://yt3.googleusercontent.com/ytc/AIdro_nNfV-b7v-Lp-V8W-L_gVl-K-V-L-K-V=s176-c-k-c0x00ffffff-no-rj',
+      courses: [
+        {
+          title: 'C Programming for Beginners',
+          subtitle: 'Solid foundation in C.',
+          description: 'Learn C programming from the king of C, Saurabh Shukla.',
+          slug: 'c-mysirg',
+          category: 'development',
+          thumbnail: 'https://i.ytimg.com/vi/K37Z6N1_44w/maxresdefault.jpg',
+          price: 0,
+          level: 'Beginner',
+          lectures: [
+             { title: 'C Programming Intro', url: 'https://www.youtube.com/watch?v=K37Z6N1_44w' }
+          ]
         }
       ]
     }
@@ -200,6 +430,7 @@ async function main() {
       update: {
         headline: creator.headline,
         bio: creator.bio,
+        avatarUrl: creator.avatar,
       },
       create: {
         id: user.id,
@@ -207,15 +438,14 @@ async function main() {
         fullName: creator.name,
         headline: creator.headline,
         bio: creator.bio,
-        role: 'instructor',
-        isInstructor: true
+        avatarUrl: creator.avatar
       }
     })
 
     // Create Courses
     for (const courseData of creator.courses) {
       console.log(`  Creating course: ${courseData.title}`)
-      await prisma.course.upsert({
+      const course = await prisma.course.upsert({
         where: { slug: courseData.slug },
         update: {
           title: courseData.title,
@@ -228,7 +458,6 @@ async function main() {
           categoryId: getCatId(courseData.category),
           status: 'published',
           isPublished: true,
-          isApproved: true
         },
         create: {
           title: courseData.title,
@@ -242,9 +471,43 @@ async function main() {
           categoryId: getCatId(courseData.category),
           status: 'published',
           isPublished: true,
-          isApproved: true
         }
       })
+
+      // Create Section
+      const section = await prisma.section.upsert({
+        where: { id: `section-${course.id}` }, // Fixed ID for upsert
+        update: { title: 'Course Content' },
+        create: {
+          id: `section-${course.id}`,
+          courseId: course.id,
+          title: 'Course Content',
+          sortOrder: 1
+        }
+      })
+
+      // Create Lectures
+      let sortOrder = 1
+      for (const lec of courseData.lectures) {
+        await prisma.lecture.upsert({
+          where: { id: `lecture-${course.id}-${sortOrder}` },
+          update: {
+             title: lec.title,
+             videoUrl: lec.url,
+             isFreePreview: true
+          },
+          create: {
+            id: `lecture-${course.id}-${sortOrder}`,
+            courseId: course.id,
+            sectionId: section.id,
+            title: lec.title,
+            videoUrl: lec.url,
+            sortOrder: sortOrder++,
+            isFreePreview: true,
+            type: 'video'
+          }
+        })
+      }
     }
   }
 
